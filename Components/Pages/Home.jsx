@@ -10,7 +10,9 @@ const Home = (props) => {
 
   const slides=HomePageHeroSlides.map((item) => {
     console.log(item);
+    return(
           <img src={item.imge} alt="/dsfg" />
+    )
     })
   return (
     
